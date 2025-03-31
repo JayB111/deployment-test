@@ -1,5 +1,6 @@
 {
   "name": "reactment-test",
+  "homepage": "https://github.com/JayB111/deployment-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,7 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    
+
     "lint": "eslint .",
     "preview": "vite preview"
   },
